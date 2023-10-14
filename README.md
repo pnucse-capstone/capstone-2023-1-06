@@ -7,7 +7,7 @@
 
 Kim Kyung Hyun, klps44@naver.com, 데이터 전처리/ 알고리즘 설계
 
-Peter Benjamin Parker, spiderman@marvel.com, 알고리즘 설계
+Yu il hae, yih0826@pusan.ac.kr, 풀스택 개발
 
 Stephen Vincent Strange, doctorstrange@marvel.com, 백앤드 개발
 
