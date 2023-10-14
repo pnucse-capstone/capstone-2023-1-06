@@ -24,7 +24,7 @@
 
 <br>
 
-✔️ 본 시스템의 특징은 다음과 같다.
+✅ 본 시스템의 특징은 다음과 같다.
 - **YOLAM: YOLOv8 + Segment Anything** 모델을 통한 실시간 물류 적재율 계산 End-to-End Pipeline을 제안<br><br>
 - 작업자가 쉽게 사용할 수 있는 **어플리케이션을 제작**해 물류 효율을 증진시킬 수 있는 스마트 물류 어플리케이션 제작<br><br>
 - **'컴퓨터비전개론'** 에서 배운 SIFT 및 RANSAC을 적용해 Image Match 및 Alinment<br><br>
@@ -32,7 +32,7 @@
 
 <br>
 
-✔️ 전체적인 파이프라인은 다음과 같다.<br><br>
+✅ 전체적인 파이프라인은 다음과 같다.<br><br>
 ![Overall Pipeline](assets/Overall_Pipeline.png)
 
 1.	Drone을 이용해 야적장 내 이미지를 촬영함<br>
@@ -44,7 +44,7 @@
 
 <br>
 
-✔️ 작업자가 손쉽게 사용할 수 있도록 GUI를 구현했으며, 기능은 다음과 같다.<br><br>
+✅ 작업자가 손쉽게 사용할 수 있도록 GUI를 구현했으며, 기능은 다음과 같다.<br><br>
 ![App high level pipeline](assets/App_high_level_pipeline.png)
 
 1. Real-Time 야적장 viewer<br>
@@ -55,7 +55,7 @@
    
 <br>
 
-✔️ 전체 프로그램 UI는 다음과 같다.<br><br>
+✅ 전체 프로그램 UI는 다음과 같다.<br><br>
 ![Overall UI](assets/Overall_UI.png)
 
 - 야적장 상태를 Real-Time으로 모니터링하고, 적재율을 계산한다.
