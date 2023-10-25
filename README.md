@@ -129,14 +129,14 @@ $ cd ./FlyToTheSky
 
 <br>
 
-**2. 모델 weight 파일을 아래 링크에서 다운받아 './FlyToTheSky/model_weight'에 넣습니다. <br>**
+**3. 모델 weight 파일을 아래 링크에서 다운받아 './FlyToTheSky/model_weight'에 넣습니다. <br>**
 
-[👉🏻 sam_vit_h.pth](https://drive.google.com/file/d/1kHD2y0Bvon7lGwngKNc-AvWx4l9zSX4c/view?usp=sharing)
-[👉🏻 bestDS.pt](https://drive.google.com/file/d/13CTmXYHcu1wL1K5m6uoO2XWCZm9XJk3I/view?usp=sharing)
+👉🏻 [sam_vit_h.pth](https://drive.google.com/file/d/1kHD2y0Bvon7lGwngKNc-AvWx4l9zSX4c/view?usp=sharing)<br>
+👉🏻 [bestDS.pt](https://drive.google.com/file/d/13CTmXYHcu1wL1K5m6uoO2XWCZm9XJk3I/view?usp=sharing)
 
 <br>
 
-**3. conda 명령어를 사용해 가상환경을 생성하고, requirements.txt를 이용해 필요한 라이브러리들을 설치합니다. <br>**
+**4. conda 명령어를 사용해 가상환경을 생성하고, requirements.txt를 이용해 필요한 라이브러리들을 설치합니다. <br>**
 
 ```
 $ conda --version
@@ -152,10 +152,10 @@ $ pip install -r requirements.txt
 
 <br>
 
-**4. 야적장 데이터들이 올바른 Dir에 들어있는지 확인하고, retrieved_patch에 처리하고자 하는 이미지를 넣습니다. <br><br>**
+**5. 야적장 데이터들이 올바른 Dir에 들어있는지 확인하고, retrieved_patch에 처리하고자 하는 이미지를 넣습니다. <br><br>**
 
 
-**5. main.py를 실행합니다. <br>**
+**6. main.py를 실행합니다. <br>**
 
 ```
 $ python3 main.py
