@@ -72,7 +72,9 @@ TBD
 <br><br>
 ### 5. 설치 및 사용법
 
-✅ DIR 구조 <br><br>
+<br>
+
+✅ DIR 구조 <br>
 
 ```
 ./FlyToTheSky/
