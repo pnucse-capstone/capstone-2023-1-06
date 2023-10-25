@@ -118,7 +118,11 @@ python_version: 3.8.17 <br>
 
 ✅ Run UI <br><br>
 
-**1. 위 사양과 anaconda를 설치란 상태로, './FlyToTheSky' 디렉토리로 이동합니다. <br>**
+**1. 위 요구 사양과 anaconda 설치 유무를 확인하고, 적절한 위치에 이 repository를 clone합니다. <br>**
+
+<br>
+
+**2. './FlyToTheSky' 디렉토리로 이동합니다. <br>**
 
 ```
 $ cd ./FlyToTheSky
@@ -126,7 +130,7 @@ $ cd ./FlyToTheSky
 
 <br>
 
-**2. conda 명령어를 사용해 가상환경을 생성하고, requirements.txt를 이용해 필요한 라이브러리들을 설치합니다. <br>**
+**3. conda 명령어를 사용해 가상환경을 생성하고, requirements.txt를 이용해 필요한 라이브러리들을 설치합니다. <br>**
 
 ```
 $ conda --version
@@ -142,10 +146,10 @@ $ pip install -r requirements.txt
 
 <br>
 
-**3. 야적장 데이터들이 올바른 Dir에 들어있는지 확인하고, retrieved_patch에 처리하고자 하는 이미지를 넣습니다. <br><br>**
+**4. 야적장 데이터들이 올바른 Dir에 들어있는지 확인하고, retrieved_patch에 처리하고자 하는 이미지를 넣습니다. <br><br>**
 
 
-**4. main.py를 실행합니다. <br>**
+**5. main.py를 실행합니다. <br>**
 
 ```
 $ python3 main.py
