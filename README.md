@@ -72,8 +72,83 @@ TBD
 <br><br>
 ### 5. 설치 및 사용법
 
-본 프로젝트는 Ubuntu 20.04 버전에서 개발되었으며 함께 포함된 다음의 스크립트를 수행하여 
-관련 패키지들의 설치와 빌드를 수행할 수 있습니다.
+✅ DIR 구조 <br><br>
+
 ```
-$ ./install_and_build.sh
+./FlyToTheSky/
+├── Inferencer.py
+├── aligner.py
+├── datas/
+│   ├── boundary/          -> 전체 바운더리 영역을 표시하는 image
+│   ├── full_maps/         -> 전체 view image
+│   ├── full_masks/        
+│   ├── processed_patch/   
+│   ├── queue_patch/       
+│   └── retrieved_patch/   -> 처리할 image가 저장되는 patch
+├── demo.bat
+├── demo.py
+├── frames/
+│   ├── LeftFrame.py
+│   ├── MainFrame.py
+│   ├── RightFrame.py
+├── main.py
+├── model_weight/
+├── ret_temp/
+└── widgets/
+    ├── CanvasImage.py
+    ├── VerticalScrollFrame.py
+    ├── __init__.py
 ```
+
+<br>
+
+✅ How To Use <br><br>
+
+본 프로젝트는 Window에서 개발되었으며 함께 포함된 다음의 스크립트를 수행하여 
+관련 패키지들의 설치와 빌드를 수행할 수 있습니다.<br><br>
+
+✅ Requirements <br><br>
+
+OS: Window 11 <br>
+GPU: >= 10GB <br>
+RAM: >= 8GB <br>
+python_version: 3.8.17 <br>
+
+가상환경 생성을 위해 anaconda 설치 <br><br>
+
+✅ Run UI <br><br>
+
+**1. 위 사양과 anaconda를 설치란 상태로, './FlyToTheSky' 디렉토리로 이동합니다. <br>**
+
+```
+$ cd ./FlyToTheSky
+```
+
+<br>
+
+**2. conda 명령어를 사용해 가상환경을 생성하고, requirements.txt를 이용해 필요한 라이브러리들을 설치합니다. <br>**
+
+```
+$ conda --version
+
+$ conda update conda
+
+$ conda create -n FlyToTheSky python 3.8
+
+$ conda activate FlyToTheSky
+
+$ pip install -r requirements.txt
+```
+
+<br>
+
+**3. 야적장 데이터들이 올바른 Dir에 들어있는지 확인하고, retrieved_patch에 처리하고자 하는 이미지를 넣습니다. <br><br>**
+
+
+**4. main.py를 실행합니다. <br>**
+
+```
+$ python3 main.py
+```
+
+
