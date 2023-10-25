@@ -86,17 +86,14 @@ TBD
 │   ├── queue_patch/       
 │   └── retrieved_patch/   -> 처리할 image가 저장되는 patch
 ├── demo.py
-├── frames/
+├── frames/                -> UI 관련
 │   ├── LeftFrame.py
 │   ├── MainFrame.py
 │   ├── RightFrame.py
-├── main.py               -> 프로그램 실행용 파일
-├── model_weight/
+├── main.py                -> 프로그램 실행용 파일
+├── model_weight/          -> sam_vit_h.pth 및 bsetDS.pt 파일 넣기
 ├── ret_temp/
 └── widgets/
-    ├── CanvasImage.py
-    ├── VerticalScrollFrame.py
-    ├── __init__.py
 ```
 
 <br>
