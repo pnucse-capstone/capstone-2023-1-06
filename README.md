@@ -151,7 +151,7 @@ $ pip install -r requirements.txt
 
 <br>
 
-**5. 야적장 데이터들이 올바른 Dir에 들어있는지 확인하고, retrieved_patch에 처리하고자 하는 이미지를 넣습니다. <br><br>**
+**5. 야적장 데이터들이 올바른 Dir에 들어있는지 확인하고, './FlyToTheSky/retrieved_patch/'에 처리하고자 하는 이미지를 넣습니다. <br><br>**
 
 
 **6. main.py를 실행합니다. <br>**
