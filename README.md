@@ -110,9 +110,9 @@ TBD
 ✔️ OS: Window 11 <br>
 ✔️ GPU: >= 10GB <br>
 ✔️ RAM: >= 8GB <br>
-✔️ python_version: 3.8.17 <br>
+✔️ Python_version: 3.8.17 <br>
 
-✔️ 가상환경 생성을 위해 anaconda 설치 <br><br>
+✔️ (추가) 가상환경 생성을 위해 anaconda 설치 <br><br>
 
 ✅ Run UI <br><br>
 
