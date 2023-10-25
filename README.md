@@ -85,13 +85,12 @@ TBD
 │   ├── processed_patch/   
 │   ├── queue_patch/       
 │   └── retrieved_patch/   -> 처리할 image가 저장되는 patch
-├── demo.bat
 ├── demo.py
 ├── frames/
 │   ├── LeftFrame.py
 │   ├── MainFrame.py
 │   ├── RightFrame.py
-├── main.py
+├── main.py               -> 프로그램 실행용 파일
 ├── model_weight/
 ├── ret_temp/
 └── widgets/
@@ -127,6 +126,13 @@ python_version: 3.8.17 <br>
 ```
 $ cd ./FlyToTheSky
 ```
+
+<br>
+
+**2. 모델 weight 파일을 아래 링크에서 다운받아 './FlyToTheSky/model_weight'에 넣습니다. <br>**
+
+[👉🏻 sam_vit_h.pth](https://drive.google.com/file/d/1kHD2y0Bvon7lGwngKNc-AvWx4l9zSX4c/view?usp=sharing)
+[👉🏻 bestDS.pt](https://drive.google.com/file/d/13CTmXYHcu1wL1K5m6uoO2XWCZm9XJk3I/view?usp=sharing)
 
 <br>
 
