@@ -128,7 +128,7 @@ $ cd ./FlyToTheSky
 
 <br>
 
-**3. 모델 weight 파일을 아래 링크에서 다운받아 './FlyToTheSky/model_weight'에 넣습니다. <br>**
+**3. 모델 weight 파일을 아래 링크에서 다운받아 './FlyToTheSky/model_weight/'에 넣습니다. <br>**
 
 👉🏻 [sam_vit_h.pth](https://drive.google.com/file/d/1kHD2y0Bvon7lGwngKNc-AvWx4l9zSX4c/view?usp=sharing)<br>
 👉🏻 [bestDS.pt](https://drive.google.com/file/d/13CTmXYHcu1wL1K5m6uoO2XWCZm9XJk3I/view?usp=sharing)
