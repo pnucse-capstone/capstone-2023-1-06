@@ -66,8 +66,10 @@
 
 <br><br>
 ### 4. 소개 및 시연 영상
+<br>
 
-TBD
+**👇🏻 발표영상 보러가기** (이미지 클릭)<br>
+[![부산대학교 정보컴퓨터공학부 FlyToTheSky 졸업과제](http://img.youtube.com/vi/QM6eMy1locc/0.jpg)](https://www.youtube.com/watch?v=QM6eMy1locc)
 
 <br><br>
 ### 5. 설치 및 사용법
